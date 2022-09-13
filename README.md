@@ -129,4 +129,25 @@ mvn package -Pjlink-image -Djlink.image.addClassDataSharingArchive=false
 ```
 
 For more information on available configuration options see the helidon-maven-plugin documentation.
+
+This project gets the employees information which it stores inside a HashMap. 
+The employees are accessible at url -
+```
+https://localhost:8080/employees
+```
+
+To excess a paerticular employee enter the url along with the employee id- 
+```
+https://localhost:8080/employees/{id}
+```
+if id is 3 - 
+```
+https://localhost:8080/employees/3
+```
+This fetches the employee details of id 3.
+
+It also includes methods like PUT, DELETE, POST.
+
+Explore the code and enjoy the service.
+
                                 
